@@ -1,15 +1,27 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-	section p {
-		/*font-size: 18px !important;*/
-	}
 	.top-logo-wrap p {
 		position: static;
 	}
 }
-
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	nav {
+		width: 100%;
+		background-color: #fdc84e;
+	}
+	nav ul {
+		padding: 0;
+	}
+	nav ul li {
+		padding-left: 0;
+	}
+	h1 {
+		margin-top: 50px;
+	}
+	.callback {
+		margin-right: 0;
+	}
 	.gallery .fa {
 		position: absolute;
 		top: -50px;
@@ -50,24 +62,7 @@
 		.top-logo-wrap p {
 		position: absolute;
 	}
-	nav {
-		width: 100%;
-		background-color: #fdc84e;
-	}
-	nav ul {
-		padding: 0;
-	}
-	nav ul li {
-		padding-left: 0;
-	}
-	h1 {
-		margin-top: 50px;
-	}
-	.callback {
-		margin-right: 0;
-	}
 }
-
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	h1 {
@@ -78,21 +73,29 @@
 		font-size: 30px !important;
 		margin: 20px 0 !important;
 	}
+	nav ul {
+		display: none;
+	}
+	nav ul li {
+		float: none !important;
+	}
 	#reviews {
 		padding-bottom: 50px;
 	}
 	#company {
 		padding-top: 50px;
 	}
+	#partners {
+		padding-bottom: 20px;
+	}
 	.top-logo-wrap img {
 		margin-bottom: 10px;
 	}
-	nav ul li {
-		float: none !important;
+	#subscription input{
+		display: block;
 	}
 }
 /* Extra Small Devices */
 @media only screen and (max-width : 600px) {
-	
 }
 
